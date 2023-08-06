@@ -1,0 +1,21 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  mat-card {
+    margin-top: 40px;
+    max-width: 400px;
+    mat-card-title {
+      padding-top: 20px;
+      text-align: center;
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
+    mat-form-field {
+      width: 100%;
+    }
+  }
+}
